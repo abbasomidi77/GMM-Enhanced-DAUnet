@@ -5,7 +5,7 @@ Welcome to GMM-Enhanced DAUnet, an unsupervised domain adaptation tool for perfo
 ![midf](https://github.com/abbasomidi77/GMM-Enhanced-DAUnet/assets/61683254/510045b2-fad9-44c4-afd3-880a8c9ace0f)
 
 # GMM Data
-The code for creating synthetic data can be found in the GMM folder. You can utilize this code to generate data and subsequently incorporate it into your source dataset directory. We have already implemented a data loader capable of managing both synthetic and real data together, ensuring seamless feeding into the network.
+The code for creating synthetic data can be found in the GMM folder. You can utilize this code to generate data and subsequently incorporate it into your source dataset directory. 
 
 # Data
 We also have leveraged the CALGARY-CAMPINAS PUBLIC BRAIN MR DATASET, available at [this link](https://sites.google.com/view/calgary-campinas-dataset/home). Please download the dataset from the provided link to proceed. Additionally, we have included sample data-split CSV files in the Data-split folder to help you organize your data.
