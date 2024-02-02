@@ -1,10 +1,14 @@
-# DAUnet
+# GMM-Enhanced DAUnet
 
-Welcome to DAUnet, an unsupervised domain adaptation tool for performing MRI skull-stripping on newborn data using a model trained on adult data. This repository allows you to seamlessly adapt your model for this challenging task.
-![Final drawio](https://github.com/abbasomidi77/DAUnet/assets/61683254/60da03d5-f904-4e17-bd96-f5a1d214c2d1)
+Welcome to GMM-Enhanced DAUnet, an unsupervised domain adaptation tool for performing MRI skull-stripping on newborn data using a model trained on adult data. This repository allows you to seamlessly adapt your model for this challenging task.
+
+![midf](https://github.com/abbasomidi77/GMM-Enhanced-DAUnet/assets/61683254/510045b2-fad9-44c4-afd3-880a8c9ace0f)
+
+# GMM Data
+The code for creating synthetic data can be found in the GMM folder. You can utilize this code to generate data and subsequently incorporate it into your source dataset directory. We have already implemented a data loader capable of managing both synthetic and real data together, ensuring seamless feeding into the network.
 
 # Data
-We leverage the CALGARY-CAMPINAS PUBLIC BRAIN MR DATASET, available at [this link](https://sites.google.com/view/calgary-campinas-dataset/home). Please download the dataset from the provided link to proceed. Additionally, we have included sample data-split CSV files in the Data-split folder to help you organize your data.
+We also have leveraged the CALGARY-CAMPINAS PUBLIC BRAIN MR DATASET, available at [this link](https://sites.google.com/view/calgary-campinas-dataset/home). Please download the dataset from the provided link to proceed. Additionally, we have included sample data-split CSV files in the Data-split folder to help you organize your data.
 
 # Configuration
 The current patch size for both adult and newborn data is set to 112x112x122. However, you can easily customize the patch sizes for both datasets by modifying the parameters in the data_loader_da.py script.
